@@ -1,4 +1,4 @@
-var str = "Grade 7 has ended, uggcf://vzthe.pbz/z/LFuW[(cot(pi/4)*4)]nH";                                                                                            
+var str = "Grade 7 has ended, uggcf://vzthe.pbz/n/LFuW[(cot(pi/4)*4)]nH";                                                                                            
 var printedstr = "";
 var n = 0;
 var speed = 20;
