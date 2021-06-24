@@ -1,60 +1,107 @@
 body {
-	background-image: url('background.jpg');
+    background-image: url('media/background.jpg');
+}
+
+#song {
+    background-color: #f1f3f4;
+}
+
+.greyscale {
+    transition: all .4s ease;
+}
+
+.greyscale:hover {
+    filter: grayscale(1);
+}
+
+.boxshadow {
+    box-shadow: 8px 3px black;
+}
+
+.tshadow {
+    text-shadow: 1px 1px black;
 }
 
 .title {
-	color: yellow;
-	background-color: blue;
-	text-shadow: 10px;
+    color: yellow;
+    background-color: orange;
 }
 
-.center {
-	text-align: center;
+
+#mariowalk {
+    position: relative;
+    animation: anim 5s infinite
+}
+
+@keyframes anim {
+    0% {
+	left: 0;
+    }
+    
+    50% {
+	left: 100%;
+    }
+
+    100% {
+	transform: rotate(180deg);
+	left: 0;	
+    }
+}
+
+.flex {
+    display: flex;
+    # idk what the fuck this is but hey it works
+    justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right ... + safe | unsafe;
+}
+
+.center{
+    text-align: center;
 }
 .left { 
-	float: left;
+    float: left;
 }
 .right {
-	float: right;
+    float: right;
 }
 
 .text {
-	color: white;
-	background-color: black;
-	text-shadow:7px;
+    color: white;
+    background-color: black;
+    text-shadow:7px;
 }
 
 .button {
-  background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
 }
 
 .bstyle1{
-        padding: 3px 36px;
+    padding: 3px 36px;
 }
 
 .buttongreen {                                                                      
-  background-color: white; 
-  color: black; 
-  border: 2px solid #008000;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008000;
 }
 
 .buttongreen:hover {
-  background-color: #90ee90;
-  color: white;
+    background-color: #90ee90;
+    color: white;
 }
 
 .navbar {
-  overflow: hidden;
-  background-color: #333;
+    justify-content: center;
+    overflow: hidden;
+    background-color: orange;
 }
 
 .navbar a {
@@ -84,7 +131,7 @@ body {
 /* 
  I want to note that I shall make this prettier*/
 .navbar a:hover, .WFOacts:hover .WFOact {
-  background-color: blue;
+  background-color: yellow;
 }
 
 .WFOacts-content {
